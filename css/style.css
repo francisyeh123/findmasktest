@@ -332,6 +332,8 @@ footer #footerLogo {
     .table {
         height: 310px;
         width: 100%;
+        border: 1px solid #ECEFF1;
+        border-radius: 5px;
     }
     .table td {
         padding: 12px 0;
@@ -354,6 +356,6 @@ footer #footerLogo {
         line-height: 23px;
     }
     #mymap {
-        height: 392px;
+        height: 360px;
     }
 }
