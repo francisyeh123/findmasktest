@@ -175,12 +175,14 @@ header .right-col .tag-green {
         overflow: auto;
         table-layout:fixed;
         /* width: 100%; */
+        border: 1px solid #ECEFF1;
+        border-radius: 5px;
     }
     .table table {
         width: 100%;
         background: #FFFFFF;
-        border: 1px solid #ECEFF1;
-        border-radius: 5px;
+        /* border: 1px solid #ECEFF1;
+        border-radius: 5px; */
 
         /* 會有圓角衝突 解決底線問題 */
         /* border-collapse: collapse; */
@@ -332,8 +334,6 @@ footer #footerLogo {
     .table {
         height: 310px;
         width: 100%;
-        border: 1px solid #ECEFF1;
-        border-radius: 5px;
     }
     .table td {
         padding: 12px 0;
@@ -345,7 +345,7 @@ footer #footerLogo {
     .table th:nth-child(2),
     .table td:nth-child(2) {
         max-width: 20%;
-        padding-left: 24px;
+        padding-left: 16px;
         font-size: 16px;
     }
     footer #footerLogo {
