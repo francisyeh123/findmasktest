@@ -191,6 +191,7 @@ header .right-col .tag-green {
 
         word-break: keep-all;
         font-size: 18px;
+        overflow-x: hidden;
     }
     .table thead {
         color: grey;
