@@ -364,6 +364,9 @@ footer #footerLogo {
     }
 
     #mGo {
+        position: fixed;
+        bottom: 24px;
+        margin: 0 auto;
             display: block;
             width: 60px;
             /* padding: 11px 16px; */
