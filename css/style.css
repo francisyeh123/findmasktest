@@ -297,6 +297,10 @@ footer #footerLogo {
     margin-right: 16px;
 }
 
+#mGo {
+    display: none;
+}
+
 @media (max-width: 767px) {
     header .right-col .date {
         display: none;
@@ -358,4 +362,23 @@ footer #footerLogo {
     #mymap {
         height: 320px;
     }
+
+    #mGo {
+            display: block;
+            width: 60px;
+            /* padding: 11px 16px; */
+            background: #1449EE;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+            width: 80%;
+    }
+    #mGo a {
+            color: #fff;
+            text-decoration: none;
+            font-family: Graphik-Regular;
+            padding: 11px 16px;
+            line-height: 42px;
+    }
+    
 }
