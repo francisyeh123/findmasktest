@@ -1,94 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Findmask</title>
+## Welcome to GitHub Pages
 
-    <link rel="stylesheet" href="css/style.css">
-    <!-- 載入leaflet的css樣式（繪製道路等等） -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin=""/>
-    
-    <!-- 載入leaflet.js的檔案 -->
-    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-    crossorigin=""></script>
+You can use the [editor on GitHub](https://github.com/francisyeh123/findmasktest/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-</head>
-<body>
-    <header>
-        <div class="wrap">
-            <div class="left-col">
-                <div id="logo">.findMask</div>
-                <div class="country">（台灣）</div>
-            </div>
-            <div class="right-col">
-                <div class="date"><span>2020/03/02 (週二)</span>    身分證字號尾數：</div>
-                <div class="tag-green">偶數購買日</div>
-            </div>
-        </div>
-    </header>
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-    <div id="mymap"></div>
+### Markdown
 
-    <main>
-    <div class="wrap">
-        <!-- 工作列 -->
-        <div class="toolbar">
-            <div class="left-col">
-                總共 <span>...</span> 家藥局
-            </div>
-            <div class="right-col">
-                <select class="city">
-                    <option value="">縣/市</option>
-                </select>
-                <select class="town">
-                    <option value="">區</option>
-                </select>
-                <input type="text" class="search" placeholder="搜尋藥局...">
-                <button></button>
-            </div>
-        </div>
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-        <!-- 藥局表格 -->
-        <div class="table">
-            <table>
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>藥局名稱</th>
-                        <th>地址</th>
-                        <th>成人口罩(個)</th>
-                        <th>兒童口罩(個)</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody id="mainContent">
-                    <!-- <tr>
-                        <td>1</td>
-                        <td>寬寬大藥局</td>
-                        <td>台北市和平東路三段三樓</td>
-                        <td>100</td>
-                        <td>50</td>
-                        <td>
-                            <button>前往</button>
-                        </td>
-                    </tr> -->
-                </tbody>
-            </table>
-        </div>
-    </div>
-    </main>
+```markdown
+Syntax highlighted code block
 
-    <footer>
-        <div class="wrap">
-            <div id="footerLogo">.findMask</div>
-            ©kuankuan
-        </div>
-    </footer>
-    
-    <script src="./js/all.js"></script>
-</body>
-</html>
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/francisyeh123/findmasktest/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
