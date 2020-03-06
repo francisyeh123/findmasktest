@@ -223,6 +223,7 @@ header .right-col .tag-green {
         padding-left: 32px;
     }
     .table td:nth-child(2), .table th:nth-child(2) {
+        font-weight: 600;
         width: 291px;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -380,6 +381,6 @@ footer #footerLogo {
     #updated {
         font-size: 13px;
         line-height: 16px;
-        /* text-align: left; */
+        text-align: center;
     }
 }
