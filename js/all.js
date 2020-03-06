@@ -133,11 +133,11 @@ xhr.onload = function getData() {
         .openOn(mymap);
     })
 
-    everytr.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector('#mAction').style.display = "block";
-        document.querySelector('#mAction a').setAttribute('href', e.target.parentNode.dataset.google);
-    })
+    // everytr.addEventListener('click', function(e) {
+    //     e.preventDefault();
+    //     document.querySelector('#mAction').style.display = "block";
+    //     document.querySelector('#mAction a').setAttribute('href', e.target.parentNode.dataset.google);
+    // })
 
     var searchName = document.querySelector('.search');
     searchName.addEventListener('keyup', function() {

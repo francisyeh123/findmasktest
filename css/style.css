@@ -306,9 +306,9 @@ header .right-col .tag-green {
         /* display: inline-block; */
         text-align: right;
     }
-    #mAction {
+    /* #mAction {
         display: none;  
-    }
+    } */
 
 /* footer */
 footer {
@@ -418,12 +418,11 @@ footer #footerLogo {
         line-height: 16px;
         /* text-align: left; */
     }
-    #mAction {
+    /* #mAction {
         display: none;
         position: fixed;
         bottom: 0px;
         background: #1449EE;
-        /* border-radius: 4px; */
         width: 100%;
         
     }
@@ -438,5 +437,5 @@ footer #footerLogo {
         padding: 0px 16px;
         line-height: 68px;
         text-align: center;
-    }
+    } */
 }
