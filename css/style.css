@@ -377,6 +377,6 @@ footer #footerLogo {
     #updated {
         font-size: 13px;
         line-height: 16px;
-        text-align: left;
+        /* text-align: left; */
     }
 }
