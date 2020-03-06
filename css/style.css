@@ -107,6 +107,9 @@ header .right-col .tag-green {
     background-size: cover;
     margin-top: 72px;
 }
+.leaflet-top .leaflet-control, .leaflet-bottom {
+    display: none;
+}
 
 /* 工作列 */
     main {
