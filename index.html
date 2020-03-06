@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>Findmask</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>findMask</title>
+    <!-- <link rel="favicon" href="./icon/search_20.png" sizes="32x32"> -->
 
     <link rel="stylesheet" href="css/style.css">
     <!-- 載入leaflet的css樣式（繪製道路等等） -->
@@ -26,8 +26,8 @@
                 <div class="country">（台灣）</div>
             </div>
             <div class="right-col">
-                <div class="date"><span>2020/03/02 (週二)</span>    身分證字號尾數：</div>
-                <div class="tag-green">偶數購買日</div>
+                <div class="date"><span>...</span>    身分證字號尾數：</div>
+                <div class="tag-green">...</div>
             </div>
         </div>
     </header>
@@ -61,8 +61,8 @@
                         <th>#</th>
                         <th>藥局名稱</th>
                         <th>地址</th>
-                        <th>成人口罩</th>
-                        <th>兒童口罩</th>
+                        <th>成人口罩(個)</th>
+                        <th>兒童口罩(個)</th>
                         <th></th>
                     </tr>
                 </thead>
@@ -80,6 +80,7 @@
                 </tbody>
             </table>
         </div>
+        <p id="updated">資料更新時間：<span>...</span></p>
     </div>
     </main>
 
@@ -89,8 +90,6 @@
             ©kuankuan
         </div>
     </footer>
-
-    <!--<button id="mGo"><a href="">前往</a></button>-->
     
     <script src="./js/all.js"></script>
 </body>

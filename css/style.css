@@ -169,7 +169,7 @@ header .right-col .tag-green {
 /* 藥局表格 */
     .table {
         /* max-width: 1140px; */
-        height: 454px;
+        max-height: 454px;
         /* margin: 0 auto; */
         font-family: 'Open Sans', sans-serif;
         overflow: auto;
@@ -177,12 +177,12 @@ header .right-col .tag-green {
         /* width: 100%; */
         border: 1px solid #ECEFF1;
         border-radius: 5px;
+        margin-bottom: 16px;
     }
     .table table {
         width: 100%;
         background: #FFFFFF;
-        /* border: 1px solid #ECEFF1;
-        border-radius: 5px; */
+
 
         /* 會有圓角衝突 解決底線問題 */
         /* border-collapse: collapse; */
@@ -193,7 +193,6 @@ header .right-col .tag-green {
 
         word-break: keep-all;
         font-size: 18px;
-        overflow-x: hidden;
     }
     .table thead {
         color: grey;
@@ -281,6 +280,14 @@ header .right-col .tag-green {
         padding: 11px 16px;
         line-height: 42px;
     }
+    #updated {
+        font-size: 14px;
+        color: #718192;
+        opacity: 85%;
+        line-height: 16px;
+        /* display: inline-block; */
+        text-align: right;
+    }
 
 /* footer */
 footer {
@@ -298,10 +305,6 @@ footer #footerLogo {
     color: #1449EE;
     display: inline-block;
     margin-right: 16px;
-}
-
-#mGo {
-    display: none;
 }
 
 @media (max-width: 767px) {
@@ -339,6 +342,9 @@ footer #footerLogo {
         cursor: pointer;
     }
     .table {
+        margin-bottom: 8px;
+    }
+    .table {
         height: 310px;
         width: 100%;
     }
@@ -368,26 +374,9 @@ footer #footerLogo {
     #mymap {
         height: 320px;
     }
-
-    #mGo {
-        position: fixed;
-        bottom: 24px;
-        margin: 0 auto;
-            display: block;
-            width: 60px;
-            /* padding: 11px 16px; */
-            background: #1449EE;
-            border-radius: 4px;
-            color: white;
-            cursor: pointer;
-            width: 80%;
+    #updated {
+        font-size: 13px;
+        line-height: 16px;
+        text-align: left;
     }
-    #mGo a {
-            color: #fff;
-            text-decoration: none;
-            font-family: Graphik-Regular;
-            padding: 11px 16px;
-            line-height: 42px;
-    }
-    
 }

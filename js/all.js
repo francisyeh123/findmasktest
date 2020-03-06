@@ -9,6 +9,27 @@ xhr.onload = function getData() {
 //=========================================================================
 //=========================================================================
 
+    //顯示時間
+    var time = new Date();
+        var year = time.getFullYear();
+        var month = time.getMonth()+1;
+        var date = time.getDate();
+        var oldday = time.getDay();
+            var newday = ["週日", "週一", "週二", "週三", "週四", "週五", "週六"];
+    document.querySelector('.right-col .date span').innerHTML = `${year}/${month}/${date} (${newday[oldday]})`;
+
+    //判斷積偶
+    var buyDay;
+    if(oldday == 1 || oldday == 3 || oldday == 5) {
+        buyDay = "奇數購買日"
+    }else {
+        buyDay = "偶數購買日"
+    }
+    document.querySelector('.right-col .tag-green').innerHTML = `${buyDay}`
+
+    //資料更新時間
+    document.querySelector('#updated span').innerHTML = `${data[0].properties.updated}`
+
     //顯示地圖
     var mymap = L.map('mymap').setView([data[0].geometry.coordinates[1], data[0].geometry.coordinates[0]], 10);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
