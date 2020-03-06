@@ -225,6 +225,9 @@ header .right-col .tag-green {
     }
     .table td:nth-child(2), .table th:nth-child(2) {
         width: 291px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
     }
     .table td:nth-child(3), .table th:nth-child(3) {
         max-width: 388px;
