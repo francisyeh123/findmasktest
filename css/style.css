@@ -220,6 +220,20 @@ header .right-col .tag-green {
         background: rgba(17,51,83,0.02);
         cursor: pointer;
     }
+    .table th:nth-child(1) {}
+    .table th:nth-child(2) {}
+    .table th:nth-child(3) {}
+    .table th:nth-child(4) {}
+    .table th:nth-child(5) {}
+    .table th:nth-child(6) {}
+
+    .table td:nth-child(1) {}
+    .table td:nth-child(2) {}
+    .table td:nth-child(3) {}
+    .table td:nth-child(4) {}
+    .table td:nth-child(5) {}
+    .table td:nth-child(6) {}
+
     .table td:nth-child(1), .table th:nth-child(1) {
         width: 81px;
         padding-left: 32px;
@@ -253,7 +267,7 @@ header .right-col .tag-green {
         color: #000000;
         line-height: 24px;
         padding: 16px 0 16px 0;
-        font-weight: 500;
+        font-weight: 400;
         letter-spacing: 0.2px;
     }
     .table td:nth-child(3) {
@@ -270,18 +284,18 @@ header .right-col .tag-green {
         font-family: Graphik-Regular;
     }
     .table td:nth-child(6) button {
-        width: 60px;
-        /* padding: 11px 16px; */
         background: #1449EE;
         border-radius: 4px;
         color: white;
-        cursor: pointer;
     }
     .table button a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
         color: #fff;
         text-decoration: none;
         font-family: Graphik-Regular;
-        padding: 11px 16px;
+        padding: 0px 16px;
         line-height: 42px;
     }
     #updated {
@@ -291,6 +305,9 @@ header .right-col .tag-green {
         line-height: 16px;
         /* display: inline-block; */
         text-align: right;
+    }
+    #mAction {
+        display: none;  
     }
 
 /* footer */
@@ -355,6 +372,20 @@ footer #footerLogo {
     .table td {
         padding: 12px 0;
     }
+    .table th:nth-child(1) {}
+    .table th:nth-child(2) {}
+    .table th:nth-child(3) {}
+    .table th:nth-child(4) {}
+    .table th:nth-child(5) {}
+    .table th:nth-child(6) {}
+
+    .table td:nth-child(1) {}
+    .table td:nth-child(2) {}
+    .table td:nth-child(3) {}
+    .table td:nth-child(4) {}
+    .table td:nth-child(5) {}
+    .table td:nth-child(6) {}
+
     .table th:nth-child(1), .table th:nth-child(3),.table th:nth-child(6),
     .table td:nth-child(1), .table td:nth-child(3),.table td:nth-child(6) {
         display: none;
@@ -366,6 +397,7 @@ footer #footerLogo {
         
     }
     .table td:nth-child(2) {
+        font-weight: 500;
         font-size: 16px;
     }
     footer {
@@ -385,5 +417,26 @@ footer #footerLogo {
         font-size: 13px;
         line-height: 16px;
         /* text-align: left; */
+    }
+    #mAction {
+        display: none;
+        position: fixed;
+        bottom: 0px;
+        background: #1449EE;
+        /* border-radius: 4px; */
+        width: 100%;
+        
+    }
+    #mAction a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        text-decoration: none;
+        font-family: Graphik-Regular;
+        font-size: 14px;
+        padding: 0px 16px;
+        line-height: 72px;
+        text-align: center;
     }
 }

@@ -133,6 +133,12 @@ xhr.onload = function getData() {
         .openOn(mymap);
     })
 
+    everytr.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#mAction').style.display = "block";
+        document.querySelector('#mAction a').setAttribute('href', e.target.parentNode.dataset.google);
+    })
+
     var searchName = document.querySelector('.search');
     searchName.addEventListener('keyup', function() {
         document.querySelector('#mainContent').innerHTML = "";
@@ -179,6 +185,7 @@ xhr.onload = function getData() {
         everyStore.setAttribute("data-x", data[i].geometry.coordinates[1]);
         everyStore.setAttribute("data-y", data[i].geometry.coordinates[0]);
         everyStore.setAttribute("data-name", data[i].properties.name);
+        everyStore.setAttribute("data-google", 'https://www.google.com.tw/maps/dir//' + data[i].properties.address);
         document.querySelector('#mainContent').appendChild(everyStore);
     }
 
