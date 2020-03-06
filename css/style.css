@@ -251,7 +251,8 @@ header .right-col .tag-green {
         color: #000000;
         line-height: 24px;
         /* font-weight: 300; */
-        font-weight: 600;
+        font-weight: 500;
+        letter-spacing: 1px;
     }
     .table td:nth-child(3) {
         font-size: 17px;
